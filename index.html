@@ -5,12 +5,122 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <base target="_blank">
     <title>Chan's works</title>
+    <style>
+        body,div {
+            margin: 0;
+            padding: 0;
+        }
+        .content {
+            box-sizing: border-box;
+            width: 65%;
+            padding: 10px;
+            float: left;
+        }
+        .about {
+            position: fixed;
+            top: 0;
+            right: 0;
+            box-sizing: border-box;
+            padding: 10px;
+            float: right;
+            width: 35%;
+        }
+        .about ul {
+            padding: 0;
+        }
+        .about ul li {
+            list-style: none;
+            margin: 5px 0;
+            font-size: 1rem;
+        }
+        @media screen and (max-width: 320px) {
+            .about ul li span{
+                display: none;
+            }
+        }
+    </style>
 </head>
 <body>
-    <div class="SPA-Takeaway">
-        <a href="SPA-Takeaway/index.html">SPA-Takeaway</a>
-        <a href="https://github.com/CHANxw/SPA-Takeaway">项目地址</a>
+    <div class="content">
+        <h3>Project And Demo</h3>
+        <div class="SPA-Takeaway">
+            <h4>SPA-Takeaway</h4>
+            <p>这是利用Vue2.0实现的一个仿饿了么用户端的移动web app</p>
+            <a href="SPA-Takeaway/index.html">点击预览</a>
+            <a href="https://github.com/CHANxw/SPA-Takeaway">项目地址</a>
+        </div>
+        <div class="MovieServer">
+            <h4>MovieServer</h4>
+            <p>通过express和数据库mongoDB完成的一个管理电影内容的后台操作项目</p>
+            <a href="https://github.com/CHANxw/MovieServer">项目地址</a>
+        </div>
+        <div class="WechatPublicService">
+            <h4>利用nodeJs完成的微信公众号开发项目</h4>
+            <p>利用nodeJs完成的微信公众号开发项目，使用了koa2的框架以及mongoose的数据库操作框架实现了微信公众号应用开发</p>
+            <p>其中后台数据库部分利用了的MovieServer项目<a href="https://github.com/CHANxw/MovieServer">(项目地址)</a>部分完成express框架到koa2的升级</p>
+            <a href="https://github.com/CHANxw/WechatPublicService">微信公众号项目地址</a>
+        </div>
+        <div class="IFE2015">
+            <h4>IFE2015项目地址</h4>
+            <p>百度前端技术学院2015的任务学习，完成基本的JS操作和webapp的开发学习</p>
+            <a href="https://github.com/CHANxw/IFE2015">IFE2015项目github</a>
+            <ul>
+                <li>util 工具库
+                    <a href="https://github.com/CHANxw/IFE2015/blob/master/util.js">代码详情</a></li>
+                <li>task2 任务练习
+                    <ul>
+                        <li>点击进行预览</li>
+                        <li><a href="IFE/task002/task0002_1.html">task2-1 兴趣爱好整理输入框</a></li>
+                        <li><a href="IFE/task002/task0002_2.html">task2-2 倒计时功能</a></li>
+                        <li><a href="IFE/task002/task0002_3.html">task2-3 轮播图</a></li>
+                        <li><a href="IFE/task002/task0002_4.html">task2-4 输入提示框</a></li>
+                        <li><a href="IFE/task002/task0002_5.html">task2-5 拖拽交互</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="IFE/diary/index.html">task3 日志管理app</a>
+                </li>
+            </ul>
+        </div>
+        <div class="Practice">
+            <h4>练习demo</h4>
+            <ul
+                <li><a href="Demo/瀑布流布局/index.html">瀑布流实现</a></li>
+                <li><a href="Demo/切图/index.html">切图demo1</a></li>
+                <li><a href="Demo/切图2/index.html">切图demo2</a></li>
+                <li><a href="Demo/%E8%B4%AA%E5%90%83%E8%9B%87/index.html">贪吃蛇</a></li>
+                <li><a href="Demo/网页定位导航/demo.html">网页定位导航demo</a></li>
+                <li><a href="Demo/日历/index.html">日历选择</a></li>
+                <li><a href="Demo/栅格化布局/index.html">仿制栅格化布局</a></li>
+                <li><a href="Demo/flex%E5%B8%83%E5%B1%80%E7%BB%83%E4%B9%A0/index.html">Flex布局学习</a></li>
+                <li><a href="Demo/二叉树遍历/index.html">二叉树遍历</a></li>
+                <li><a href="Demo/增删tag/index.html">task2-1改进 tag删减</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="about">
+        <h3>关于个人</h3>
+        <h4>信息</h4>
+        <ul>
+            <li><span>名字: </span>陈炫炜</li>
+            <li><span>生活: </span>深圳</li>
+            <li><span>毕业于: </span>深圳大学</li>
+            <li><span>学位: </span>本科</li>
+            <li><span>专业: </span>机械设计自动化</li>
+        </ul>
+        <h4>media</h4>
+        <ul>
+            <li><a href="http://www.jianshu.com/u/e73691f972bb">简书</a></li>
+            <li><a href="https://github.com/CHANxw">github</a></li>
+            <li><a href="http://mail.163.com/">邮箱: wb_cxw@163.com</a></li>
+        </ul>
+        <p>感谢您的浏览</p>
     </div>
 </body>
+<script>
+    console.log('这是我(Chan)的一份项目和demo查看页面，感谢您用了宝贵的时间来浏览这个页面！')
+    console.log('虽然专业看上去不对口，但我还是对前端很有兴趣，所以就一直做到现在，再次感谢您能看到这里。')
+</script>
 </html>
