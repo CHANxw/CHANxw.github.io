@@ -6,7 +6,14 @@
     <description>Recent content on Chanxw WebSite</description>
     <generator>Hugo -- 0.139.3</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2024 17:23:00 +0800</lastBuildDate>
     <atom:link href="https://chanxw.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://chanxw.github.io/posts/my-first-post/</link>
+      <pubDate>Tue, 10 Dec 2024 17:23:00 +0800</pubDate>
+      <guid>https://chanxw.github.io/posts/my-first-post/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
